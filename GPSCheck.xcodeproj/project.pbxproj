@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF9DBC6C1DC514C4002A3185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9DBC6B1DC514C4002A3185 /* AppDelegate.swift */; };
-		EF9DBC6E1DC514C4002A3185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9DBC6D1DC514C4002A3185 /* ViewController.swift */; };
-		EF9DBC711DC514C4002A3185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9DBC6F1DC514C4002A3185 /* Main.storyboard */; };
-		EF9DBC731DC514C4002A3185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9DBC721DC514C4002A3185 /* Assets.xcassets */; };
-		EF9DBC761DC514C4002A3185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9DBC741DC514C4002A3185 /* LaunchScreen.storyboard */; };
+		EF60A6EC1DD532420016DAB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A6E41DD532420016DAB2 /* AppDelegate.swift */; };
+		EF60A6ED1DD532420016DAB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60A6E51DD532420016DAB2 /* Assets.xcassets */; };
+		EF60A6EE1DD532420016DAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF60A6E61DD532420016DAB2 /* LaunchScreen.storyboard */; };
+		EF60A6EF1DD532420016DAB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF60A6E81DD532420016DAB2 /* Main.storyboard */; };
+		EF60A6F01DD532420016DAB2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF60A6EA1DD532420016DAB2 /* Info.plist */; };
+		EF60A6F11DD532420016DAB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A6EB1DD532420016DAB2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF9DBC681DC514C4002A3185 /* GPSChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF9DBC6B1DC514C4002A3185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF9DBC6D1DC514C4002A3185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF9DBC701DC514C4002A3185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF9DBC721DC514C4002A3185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF9DBC751DC514C4002A3185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF9DBC771DC514C4002A3185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF60A6E41DD532420016DAB2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF60A6E51DD532420016DAB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF60A6E71DD532420016DAB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF60A6E91DD532420016DAB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF60A6EA1DD532420016DAB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF60A6EB1DD532420016DAB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF9DBC681DC514C4002A3185 /* GPSCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +36,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF60A6E31DD532420016DAB2 /* GPSCheck */ = {
+			isa = PBXGroup;
+			children = (
+				EF60A6E41DD532420016DAB2 /* AppDelegate.swift */,
+				EF60A6E51DD532420016DAB2 /* Assets.xcassets */,
+				EF60A6E61DD532420016DAB2 /* LaunchScreen.storyboard */,
+				EF60A6E81DD532420016DAB2 /* Main.storyboard */,
+				EF60A6EA1DD532420016DAB2 /* Info.plist */,
+				EF60A6EB1DD532420016DAB2 /* ViewController.swift */,
+			);
+			path = GPSCheck;
+			sourceTree = "<group>";
+		};
 		EF9DBC5F1DC514C4002A3185 = {
 			isa = PBXGroup;
 			children = (
-				EF9DBC6A1DC514C4002A3185 /* GPSChecker */,
+				EF60A6E31DD532420016DAB2 /* GPSCheck */,
 				EF9DBC691DC514C4002A3185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +60,17 @@
 		EF9DBC691DC514C4002A3185 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF9DBC681DC514C4002A3185 /* GPSChecker.app */,
+				EF9DBC681DC514C4002A3185 /* GPSCheck.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EF9DBC6A1DC514C4002A3185 /* GPSChecker */ = {
-			isa = PBXGroup;
-			children = (
-				EF9DBC6B1DC514C4002A3185 /* AppDelegate.swift */,
-				EF9DBC6D1DC514C4002A3185 /* ViewController.swift */,
-				EF9DBC6F1DC514C4002A3185 /* Main.storyboard */,
-				EF9DBC721DC514C4002A3185 /* Assets.xcassets */,
-				EF9DBC741DC514C4002A3185 /* LaunchScreen.storyboard */,
-				EF9DBC771DC514C4002A3185 /* Info.plist */,
-			);
-			path = GPSChecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF9DBC671DC514C4002A3185 /* GPSChecker */ = {
+		EF9DBC671DC514C4002A3185 /* GPSCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF9DBC7A1DC514C4002A3185 /* Build configuration list for PBXNativeTarget "GPSChecker" */;
+			buildConfigurationList = EF9DBC7A1DC514C4002A3185 /* Build configuration list for PBXNativeTarget "GPSCheck" */;
 			buildPhases = (
 				EF9DBC641DC514C4002A3185 /* Sources */,
 				EF9DBC651DC514C4002A3185 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = GPSChecker;
+			name = GPSCheck;
 			productName = GPSChecker;
-			productReference = EF9DBC681DC514C4002A3185 /* GPSChecker.app */;
+			productReference = EF9DBC681DC514C4002A3185 /* GPSCheck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF9DBC631DC514C4002A3185 /* Build configuration list for PBXProject "GPSChecker" */;
+			buildConfigurationList = EF9DBC631DC514C4002A3185 /* Build configuration list for PBXProject "GPSCheck" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF9DBC671DC514C4002A3185 /* GPSChecker */,
+				EF9DBC671DC514C4002A3185 /* GPSCheck */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +125,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9DBC761DC514C4002A3185 /* LaunchScreen.storyboard in Resources */,
-				EF9DBC731DC514C4002A3185 /* Assets.xcassets in Resources */,
-				EF9DBC711DC514C4002A3185 /* Main.storyboard in Resources */,
+				EF60A6F01DD532420016DAB2 /* Info.plist in Resources */,
+				EF60A6EF1DD532420016DAB2 /* Main.storyboard in Resources */,
+				EF60A6ED1DD532420016DAB2 /* Assets.xcassets in Resources */,
+				EF60A6EE1DD532420016DAB2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +139,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9DBC6E1DC514C4002A3185 /* ViewController.swift in Sources */,
-				EF9DBC6C1DC514C4002A3185 /* AppDelegate.swift in Sources */,
+				EF60A6F11DD532420016DAB2 /* ViewController.swift in Sources */,
+				EF60A6EC1DD532420016DAB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF9DBC6F1DC514C4002A3185 /* Main.storyboard */ = {
+		EF60A6E61DD532420016DAB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF9DBC701DC514C4002A3185 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF9DBC741DC514C4002A3185 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF9DBC751DC514C4002A3185 /* Base */,
+				EF60A6E71DD532420016DAB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EF60A6E81DD532420016DAB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF60A6E91DD532420016DAB2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -204,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -288,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF9DBC631DC514C4002A3185 /* Build configuration list for PBXProject "GPSChecker" */ = {
+		EF9DBC631DC514C4002A3185 /* Build configuration list for PBXProject "GPSCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF9DBC781DC514C4002A3185 /* Debug */,
@@ -297,7 +299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF9DBC7A1DC514C4002A3185 /* Build configuration list for PBXNativeTarget "GPSChecker" */ = {
+		EF9DBC7A1DC514C4002A3185 /* Build configuration list for PBXNativeTarget "GPSCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF9DBC7B1DC514C4002A3185 /* Debug */,
